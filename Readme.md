@@ -119,122 +119,83 @@ I am a Software Engineer and Computer Science undergraduate with a disciplined e
 
 ## 🚀 Featured Engineering Projects
 
-<table>
-  <thead>
-    <tr>
-      <th width="35%">Project & System Architecture</th>
-      <th width="45%">Technical Highlights & Impact</th>
-      <th width="20%">Stack & Links</th>
-    </tr>
-  </thead>
-  <tbody>
+### 🏏 [PLayAuction](https://github.com/MaheshChowdary593/PLayAuction) — Real-Time Multi-User Auction Simulator
+> **High-concurrency live auction platform enabling real-time player bidding with dynamic team balance algorithms.**
+> 
+> [![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://playiplauction.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MaheshChowdary593/PLayAuction)
+> 
+> `React.js` • `Node.js` • `Express.js` • `MongoDB` • `Socket.io` • `Tailwind CSS`
 
-    <!-- PROJECT 1: PLayAuction -->
-    <tr>
-      <td>
-        <b>🏏 PLayAuction</b><br />
-        <sub><i>Real-Time Multi-User Auction Simulator</i></sub>
-      </td>
-      <td>
-        • Architected a real-time player auction simulator supporting concurrent franchise bidding with instant state synchronization.<br />
-        • Implemented dynamic AI valuation algorithms assessing team balance, purse management, and player impact ratings.<br />
-        • Designed low-latency bi-directional messaging pipelines and resilient state persistence.
-      </td>
-      <td>
-        <code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Sockets</code><br /><br />
-        <a href="https://playiplauction.vercel.app/"><b>🌐 Live Demo</b></a><br />
-        <a href="https://github.com/MaheshChowdary593/PLayAuction"><b>📂 Source Code</b></a>
-      </td>
-    </tr>
+- **Real-Time Auction Sync:** Engineered multi-user auction rooms using WebSocket streams for sub-second bid broadcasts and synchronized countdown timers.
+- **AI Valuation & Team Logic:** Built algorithmic valuation routines evaluating player impact ratings, franchise purse balance, and squad composition constraints.
+- **State Reliability:** Implemented transactional state persistence to eliminate race conditions and double-bidding during high-frequency bidding clashes.
 
-    <!-- PROJECT 2: Visual Algorithm -->
-    <tr>
-      <td>
-        <b>🧠 Visual Algorithm</b><br />
-        <sub><i>Interactive DSA Exploration Engine</i></sub>
-      </td>
-      <td>
-        • Developed an interactive web application translating complex algorithmic transitions into intuitive visual state sequences.<br />
-        • Integrated smooth timeline animations using Framer Motion across sorting, graph traversals, and dynamic programming routines.<br />
-        • Built with clean component separation, enabling step-by-step playback, speed alteration, and custom data input arrays.
-      </td>
-      <td>
-        <code>React</code> <code>Express</code> <code>Framer Motion</code> <code>JavaScript</code><br /><br />
-        <a href="https://visualalgorithm.vercel.app/"><b>🌐 Live Demo</b></a><br />
-        <a href="https://github.com/MaheshChowdary593/visual_algorithm"><b>📂 Source Code</b></a>
-      </td>
-    </tr>
+---
 
-    <!-- PROJECT 3: HarvestLoop -->
-    <tr>
-      <td>
-        <b>🌱 HarvestLoop (Agri-to-Energy)</b><br />
-        <sub><i>GovTech Stubble-to-Bioenergy Platform</i></sub>
-      </td>
-      <td>
-        • Built an enterprise marketplace matching farmers with renewable biomass power plants to curb seasonal crop residue burning across Punjab & Haryana directories.<br />
-        • Engineered generative analysis using AWS Bedrock runtime coupled with geospatial mapping using Leaflet and DynamoDB.<br />
-        • Integrated regional directories, logistical analytics, and supply-demand price discovery dashboards.
-      </td>
-      <td>
-        <code>Next.js</code> <code>TypeScript</code> <code>AWS Bedrock</code> <code>DynamoDB</code> <code>Leaflet</code><br /><br />
-        <a href="https://github.com/MaheshChowdary593/agri-to-energy"><b>📂 Source Code</b></a>
-      </td>
-    </tr>
+### 🧠 [Visual Algorithm](https://github.com/MaheshChowdary593/visual_algorithm) — Interactive DSA Exploration Engine
+> **Visual algorithm engine transforming complex computer science data structures into step-by-step interactive animations.**
+> 
+> [![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://visualalgorithm.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MaheshChowdary593/visual_algorithm)
+> 
+> `React.js` • `Express.js` • `Framer Motion` • `JavaScript` • `Algorithms`
 
-    <!-- PROJECT 4: Lenny Growth Assistant -->
-    <tr>
-      <td>
-        <b>🤖 The Lenny Growth Assistant</b><br />
-        <sub><i>Grounded AI Product & Strategy Copilot</i></sub>
-      </td>
-      <td>
-        • Engineered a grounded AI knowledge engine synthesizing actionable growth frameworks from hundreds of hours of executive podcast transcripts.<br />
-        • Implemented chunking strategies, dense semantic embeddings, and vector similarity retrieval to eliminate LLM hallucination.<br />
-        • Fully containerized with Docker Compose; backend served via FastAPI with high-speed response streaming to React.
-      </td>
-      <td>
-        <code>FastAPI</code> <code>React 18</code> <code>RAG</code> <code>Docker</code> <code>Python</code><br /><br />
-        <a href="https://github.com/MaheshChowdary593/Oogylabs"><b>📂 Source Code</b></a>
-      </td>
-    </tr>
+- **Dynamic Visual State Pipelines:** Created seamless animation pipelines using Framer Motion for sorting routines, graph traversals (BFS/DFS, Dijkstra), and tree structures.
+- **Interactive Execution Controls:** Built step-by-step playback, timeline seeking, customizable speed multipliers, and custom array inputs.
+- **Component Modularity:** Architected decoupled visualization hooks allowing quick plug-and-play addition of new data structure algorithms.
 
-    <!-- PROJECT 5: queuectl -->
-    <tr>
-      <td>
-        <b>⚡ queuectl</b><br />
-        <sub><i>Resilient Multi-Process Job Queue System</i></sub>
-      </td>
-      <td>
-        • Built a robust background job queue CLI in Node.js featuring atomic row-level job claiming across isolated OS processes using SQLite transactions.<br />
-        • Implemented exponential backoff with jitter for transient retries and automated Dead Letter Queue (DLQ) isolation.<br />
-        • Designed proactive worker crash detection via heartbeat reconciliation and orphan job recovery mechanisms.
-      </td>
-      <td>
-        <code>Node.js</code> <code>SQLite</code> <code>Commander CLI</code> <code>Distributed Systems</code><br /><br />
-        <a href="https://github.com/MaheshChowdary593/Flam_Assignment"><b>📂 Source Code</b></a>
-      </td>
-    </tr>
+---
 
-    <!-- PROJECT 6: LinkPlease -->
-    <tr>
-      <td>
-        <b>🛡️ LinkPlease</b><br />
-        <sub><i>Fault-Tolerant DM Automation Pipeline</i></sub>
-      </td>
-      <td>
-        • Developed a resilient webhook ingestion and direct-messaging automation microservice built to withstand hostile upstream API constraints.<br />
-        • Solved aggressive rate limits (10 req/60s), random HTTP 500 downstream failures, and duplicate or out-of-order webhook events.<br />
-        • Implemented transactional outbox patterns, asynchronous reconciliation loops, and non-blocking IO using FastAPI and HTTPX.
-      </td>
-      <td>
-        <code>FastAPI</code> <code>AsyncIO</code> <code>aiosqlite</code> <code>HTTPX</code> <code>Python</code><br /><br />
-        <a href="https://github.com/MaheshChowdary593/Link_please"><b>📂 Source Code</b></a>
-      </td>
-    </tr>
+### 🌱 [HarvestLoop (Agri-to-Energy)](https://github.com/MaheshChowdary593/agri-to-energy) — GovTech Stubble-to-Bioenergy Platform
+> **Enterprise marketplace connecting agricultural communities with renewable biomass power plants to eliminate stubble burning.**
+> 
+> [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MaheshChowdary593/agri-to-energy)
+> 
+> `Next.js` • `TypeScript` • `AWS Bedrock` • `AWS DynamoDB` • `Leaflet GIS` • `Recharts`
 
-  </tbody>
-</table>
+- **Generative AI Diagnostics:** Integrated AWS Bedrock runtime for contextual agricultural advisory and biomass yield estimation.
+- **Geospatial Logistical Mapping:** Built interactive district-level GIS mapping via Leaflet to optimize transportation routes and collection hubs across Punjab and Haryana.
+- **Resilient Cloud Backend:** Backed by AWS DynamoDB for fast distributed lookups and real-time commodity price discovery dashboards.
+
+--- 
+
+### 🤖 [The Lenny Growth Assistant](https://github.com/MaheshChowdary593/Oogylabs) — Grounded AI Product Copilot
+> **Grounded AI knowledge platform synthesizing actionable product and growth frameworks from hundreds of hours of industry transcripts.**
+> 
+> [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MaheshChowdary593/Oogylabs)
+> 
+> `FastAPI` • `React 18` • `RAG Architecture` • `Vector Search` • `Docker Compose` • `Python`
+
+- **Grounded Semantic RAG:** Engineered intelligent transcript chunking, dense semantic vector embeddings, and similarity retrieval to eliminate LLM hallucinations.
+- **Low-Latency Streaming:** Developed asynchronous FastAPI endpoints with real-time token streaming to a responsive React frontend.
+- **Containerized Architecture:** Fully dockerized full-stack deployment with automated environment isolation via Docker Compose.
+
+---
+
+### ⚡ [queuectl](https://github.com/MaheshChowdary593/Flam_Assignment) — Resilient Multi-Process Background Job Queue
+> **CLI-driven distributed job queue system built in Node.js featuring atomic concurrency and fault-tolerant worker supervision.**
+> 
+> [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MaheshChowdary593/Flam_Assignment)
+> 
+> `Node.js` • `SQLite` • `Commander CLI` • `Concurrency Control` • `Systems Design`
+
+- **Atomic Job Claiming:** Implemented row-level locking with immediate SQLite transactions, preventing race conditions across multiple independent OS worker processes.
+- **Fault-Tolerant Execution:** Configured exponential backoff with jitter for retries and automated Dead Letter Queue (DLQ) quarantine for toxic jobs.
+- **Crash Recovery:** Engineered heartbeat reconciliation monitors that automatically detect killed worker processes and re-queue orphan tasks.
+
+---
+
+### 🛡️ [LinkPlease](https://github.com/MaheshChowdary593/Link_please) — Fault-Tolerant DM Automation Pipeline
+> **High-performance, resilient webhook ingestion and direct-messaging automation microservice built to withstand hostile upstream API constraints.**
+> 
+> [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MaheshChowdary593/Link_please)
+> 
+> `FastAPI` • `AsyncIO` • `aiosqlite` • `HTTPX` • `Python` • `Render`
+
+- **Hostile API Mitigation:** Designed proactive rate-limiting throttles (10 req/60s), random HTTP 500 downstream error handling, and duplicate webhook deduplication.
+- **Transactional Outbox & Reconciliation:** Used asynchronous reconciliation workers ensuring exactly-once delivery guarantees even during upstream network partitions.
+- **Non-Blocking Architecture:** Fully asynchronous event pipeline leveraging FastAPI, AsyncIO, and connection-pooled HTTPX clients.
+
+---
 
 <details>
   <summary><b>🔍 View Additional Engineering Repositories</b></summary>
@@ -252,19 +213,11 @@ I am a Software Engineer and Computer Science undergraduate with a disciplined e
 
 <div align="center">
 
-<!-- GitHub Stats Grid -->
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-stats-extended.vercel.app/api?username=MaheshChowdary593&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=818CF8&text_color=9CA3AF" alt="Mahesh's GitHub Stats" width="98%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com/?user=MaheshChowdary593&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=818CF8" alt="GitHub Streak Stats" width="98%" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=MaheshChowdary593&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=818CF8&text_color=9CA3AF" alt="Mahesh's GitHub Stats" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=MaheshChowdary593&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=818CF8" alt="GitHub Streak Stats" width="48%" />
+</p>
 
-<!-- Top Languages Card -->
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=MaheshChowdary593&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=9CA3AF" alt="Top Languages" width="55%" />
 </p>
@@ -276,27 +229,14 @@ I am a Software Engineer and Computer Science undergraduate with a disciplined e
 ## 🏆 Problem Solving & Continuous Learning
 
 <div align="center">
-
-<table>
-  <tr>
-    <td width="35%" align="center">
-      <a href="https://leetcode.com/u/mahesh593/" target="_blank">
-        <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" /><br /><br />
-        <b>@mahesh593</b>
-      </a>
-    </td>
-    <td width="65%">
-      <b>Focus Areas & Problem Solving Practices:</b>
-      <ul>
-        <li><b>Data Structures:</b> Arrays, Hash Maps, Linked Lists, Trees, Graphs, Heaps, and Tries.</li>
-        <li><b>Algorithm Paradigms:</b> Dynamic Programming, Divide & Conquer, Backtracking, Sliding Window, Two Pointers.</li>
-        <li><b>System Reliability:</b> Concurrency, Idempotency, Deadlock Avoidance, and Transactional Atomic Commit models.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
+  <a href="https://leetcode.com/u/mahesh593/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-mahesh593-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
+  </a>
 </div>
+
+- **Data Structures:** Arrays, Hash Maps, Linked Lists, Binary Trees, Graphs, Heaps, and Tries.
+- **Algorithm Paradigms:** Dynamic Programming, Divide & Conquer, Backtracking, Sliding Window, Two Pointers.
+- **System Reliability:** Concurrency, Idempotency, Deadlock Avoidance, and Transactional Atomic Commit models.
 
 ---
 
