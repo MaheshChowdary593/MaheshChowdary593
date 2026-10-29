@@ -241,24 +241,10 @@ I am a Software Engineer and Computer Science undergraduate with a disciplined e
 ---
 
 ## 🎯 Current Engineering Focus
-
-```typescript
-interface DeveloperFocus {
-  currentRole: "Computer Science Undergraduate @ SRMAP (CGPA: 8.7)";
-  primaryFocus: [
-    "High-throughput Backend Architectures & Event-Driven Systems",
-    "Grounded Generative AI & Enterprise RAG Pipelines",
-    "Data Structures, Algorithms & Computational Optimization"
-  ];
-  learningRoadmap: [
-    "Advanced System Design (Distributed Caching, Sharding, Consensus)",
-    "Cloud Native Infrastructure (Kubernetes, AWS Serverless)",
-    "Low-Latency Microservice Communication with gRPC"
-  ];
-  seekingOpportunities: "Software Engineer Intern / Full-Time SWE Roles";
-}
-```
-
+- 🎓 **Academic Standing:** B.Tech in Computer Science and Engineering @ **SRM University-AP** *(CGPA: 8.7, 2023–2027)*
+- 🔭 **Primary Focus:** High-throughput backend architectures, resilient event-driven microservices, and enterprise RAG pipelines.
+- 📚 **Active Learning & Upskilling:** Advanced System Design (distributed caching, database sharding, consensus protocols), cloud-native infrastructure with Kubernetes, and low-latency microservice RPCs.
+- 💼 **Open to Opportunities:** Actively seeking **Software Engineer Intern** & **Full-Time SWE** roles at engineering-first companies.
 ---
 
 ## 📬 Connect & Collaborate
